@@ -1,0 +1,590 @@
+{
+  "numStartups": 16,
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "tipsHistory": {
+    "new-user-warmup": 9,
+    "plan-mode-for-complex-tasks": 7,
+    "terminal-setup": 1,
+    "memory-command": 1,
+    "theme-command": 1,
+    "status-line": 1,
+    "prompt-queue": 7,
+    "enter-to-steer-in-relatime": 1,
+    "todo-list": 1,
+    "# for memory": 3,
+    "install-github-app": 4,
+    "drag-and-drop-images": 4,
+    "double-esc": 4,
+    "continue": 4,
+    "shift-tab": 4,
+    "image-paste": 4,
+    "ide-upsell-external-terminal": 9,
+    "custom-agents": 9,
+    "permissions": 16
+  },
+  "promptQueueUseCount": 2,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false
+  },
+  "firstStartTime": "2025-09-16T20:47:04.723Z",
+  "userID": "42bf6e113d2b63c2ec87bbd41f95d0a750520230b0cf05bfd48388de4d2e10ba",
+  "projects": {
+    "/home/azureuser/hms-enterprise-grade": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/agents ",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink Your task is to deploy 40 intelligent super agents to analyze complete codebase final verification in terms of every aspects there is use every single tool there is then remove all redundancies duplications replace mock implementations and simukation with real world class ebterprise grade implementations the quality of entire codebase should be consistent and standardized and there should be no room for any mistake forstly remove every single dovumentation there is and properly document entire codebase add a perfect readme file on how to run entire system and evey single feature of this codebase upgrade or remove bad scripts add world best configurations inside the codebase to maintain the quality and maintaining the functionality and the main aspect is frontend and ui/ux should be extremely aesthetic user freindly and structured and organized should be mobile and web freindly and backend database microserbices all algorithms should be well synced integrated and not even single line of code should be not functional overall entire system should function with extreme precision with 0 bug police deploy world class agents to each file for special detailed attention and in delivarbles i want final codebase ready to be pushed to github repository with 0 flaws and should be meticulous and should pass every benchmarks and human audits and reviews so do final scan verification optimization refactoring and polishing and 100% validation without simukation deception or incompleteness in terms of architectural aspects and code files and directories organization aspects documentation aspects and gunctionality and accessiblity and visiblity aspects use as many agents this system can take and do your magic",
+          "pastedContents": {}
+        },
+        {
+          "display": "make it 100%",
+          "pastedContents": {}
+        },
+        {
+          "display": "test once again 100% completion against [Pasted text #1 +30 lines][Pasted text #2 +37 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "Create a full-stack Hospital Management System (HMS) for a multi-specialty hospital (100+ beds), covering both frontend and backend, including mobile and web access.\n\nKey Functional Modules:\n    1.    Patient Registration (New/Returning)\n    2.    Outpatient Department (OPD) Management\n    3.    Inpatient Department (IPD) Management — Admission, Bed Management, Daily Progress, Nursing Notes, Discharge Summary\n    4.    Operation Theatre (OT) Scheduling and Records\n    5.    Emergency Department (ER) Module — Triage, Critical Alert\n    6.    Pharmacy Management — Stock, Billing, Expiry, Generic/Branded Drugs\n    7.    Laboratory Management (LIS) — Test Booking, Barcode Tracking, Report Uploading\n    8.    Radiology Management — X-ray, CT, MRI Requests and Report Tracking\n    9.    Blood Bank Management — Donor Database, Inventory Tracking, Crossmatch\n    10.    Insurance and TPA Management — Pre-Auth, Billing, Claim Tracking\n    11.    Billing & Invoicing — Department-wise, Package Billing, Emergency Billing\n    12.    Role-Based Access Control (RBAC) — Doctor, Nurse, Receptionist, Admin, Lab Technician, Pharmacist\n    13.    HR and Payroll Management — Staff Attendance (biometric integration), Leave, Payroll\n    14.    Housekeeping and Maintenance Management\n    15.    Biomedical Equipment Management\n    16.    Dietary Management — Diet Orders, Meal Planning\n    17.    Ambulance Management\n    18.    Patient Portal (Web + Mobile App) — Appointments, Reports, Bills, Payments\n    19.    Doctor Portal (Web + Mobile App) — Appointments, E-prescriptions, Progress Notes\n    20.    E-Prescription and Drug Interaction Checker\n    21.    Notification System — SMS/Email/WhatsApp Alerts\n    22.    Feedback & Complaint Management\n    23.    Marketing CRM Module — Campaigns, Reminders\n    24.    Analytics and Reporting — Revenue, OPD/IPD Statistics, Occupancy Rate\n    25.    Medical Records Department (MRD) — ICD Coding, Document Archival\n    26.    NABH / JCI Accreditation Compliance Checklists\n    27.    Advanced Backup and Disaster Recovery\n    28.    Cybersecurity Measures — End-to-End Encryption, 2FA, Audit Logs"
+            },
+            "2": {
+              "id": 2,
+              "type": "text",
+              "content": "Hospital Management Software – Advanced Feature Requirements\n\nTo enhance the functionality, control, and profitability analysis of the HMS (Hospital Management System), the following advanced features are essential for implementation:\n\n1. Superadmin Control Panel\n    •    A centrally controlled Superadmin account should oversee all client hospitals or clinics using the software.\n    •    The Superadmin can:\n    •    View a comprehensive list of all active users/accounts.\n    •    Enable or disable specific modules (e.g., OPD, IPD, Diagnostics, Pharmacy, Accounting) per user/hospital based on their subscription tier.\n    •    Create and assign accounts manually, as account creation should be centrally controlled (not self-registered).\n    •    Define the maximum number of users allowed per account based on the plan.\n    •    Allow users to reset passwords locally, while still maintaining centralized control over new account creation and module access.\n\n2. Access-Controlled Features\n    •    Specific actions such as applying discounts on invoices should be restricted based on user roles (e.g., only Admin or Manager-level users can apply discounts).\n    •    All access privileges should be customizable under Role-Based Access Control (RBAC).\n\n3. Quick Price Estimator Tool\n    •    A “Quick Price Estimation” button should be available on the dashboard to generate an estimated cost for any combination of services (OPD consultation, tests, surgeries, room charges, etc.).\n    •    This is especially useful for front-desk staff when counseling patients on expected costs.\n\n4. Advanced Accounting System\n    •    Tally Integration: The system must integrate seamlessly with Tally Prime for accounting, GST compliance, and report generation.\n    •    Export to Excel: All financial records and reports must be exportable in .xls format for independent review or third-party processing.\n    •    Referral Income Tracking:\n    •    Income from patient referrals (e.g., from doctors, agents, or clinics) should be tracked and reported separately.\n    •    Outsourced Service Accounting:\n    •    Services outsourced to third parties (like MRI scans, pathology tests, etc.) should be accounted for independently from in-house services, for clarity in profit-sharing and vendor payments.\n    •    Department-Wise Accounting:\n    •    Revenue and expenses should be segregated by department (e.g., OPD, IPD, Diagnostics, Pharmacy, Dental, Cataract) for detailed performance analysis.\n    •    Overall Financial Reporting:\n    •    A consolidated profit/loss report should be available to understand overall business health.\n    •    Break-Even & Asset-Inclusive Accounting:\n    •    A specialized accounting module that includes:\n    •    Asset tracking (e.g., equipment, machinery)\n    •    Depreciation calculation\n    •    Return on Investment (ROI)\n    •    Break-even analysis by factoring in capital expenses and fixed costs"
+            }
+          }
+        },
+        {
+          "display": "now use dev tools to test complete codebase to make sure full codebase is functional full frontend backend datbase and microservices and dependencies and beyob this are fubctional deploy 20+agents to test full completeness",
+          "pastedContents": {}
+        },
+        {
+          "display": "now verify zero redundancies and duplucations if there adress them properly using all tools",
+          "pastedContents": {}
+        },
+        {
+          "display": "are you sure there are 0 bugs 0 errors 0 warnings 0 syntax 0 security vulnerability 0 issues 0 formatting or linting errors or warning 0 typescript errors 0 redundancies 0 duplications 0 logic or functionality flwaws 0 incompleteness 0 algorithms error 0 compliance issues 0 anything beyond these is solved refactored and optimized to 100% perfect codebase and hms? if not adress it",
+          "pastedContents": {}
+        },
+        {
+          "display": "continue",
+          "pastedContents": {}
+        },
+        {
+          "display": "/doctor ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/config ",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "Now run sevwral agents to verify absolute completeness in entire codebase deploy as many agents possible to run all types of final scans dev tools run all types of technologies linitong formatting code quality fubctionality UI/UX enterprise grade standars entire full scan of every single file there is remove all redundancies in entire codebase which affects the codebase review all branches set up all configurations tools auto maintainablity of code etc make sure it functions exactly as it should all logic all algorithms everything ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "redisign UI/UX like https://www.figma.com/make/T0IHD91psXTTQgOEugCKI0/Hospital-Data-Management-Dashboard--Community-?node-id=0-1&t=j8FiUiaNyFDFgpZa-1 only if better than existing implementation ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "become a world class developer and deploy as many agents throughout the codebase to transform it to enterprise grade standards with absolute 0 tolerance for incompleteness and 0 bug policy create agents good in their domains with special tools technologies algorithms and power to lead this codebase to world class hms should be the most beautiful fubctional compliant secured and scalable ever",
+          "pastedContents": {}
+        },
+        {
+          "display": "now deploy several agents thorought the codebase specialized in every singke domains and aspects to analyze ebtire codebase extremely thorough using all possible tools in dev world and all possible scans for every detail of code fubctionality formatting linting quality syntax type security algorithms fubctionality compliance healthcare logic accounting log9c and principles in indian context research existing hospital management system repositories projects and codebases enterprise grade standards comoate the codrbase against this requirements [Pasted text #1 +30 lines][Pasted text #2 +37 lines] and beyond every context frontend ui/ux aesthetics colour schemes libraries tech stacks backend fubctionality as intended proper integrations and endpoints database microservices etc every single point and grain of sand is important to be analyzed to identify baseline and gap between enterprise grade standards make sure everything is absolutely thorough detailed witn zero vagueness also directories and gikes naming organization and structure all redundancies which needs cleaning up incompleteness and this is just 20% of i know rest 80% you should analyze with your knowledge and skill so act as world class developer and use as many super intelligent agents throughout the codebase and come up with transformation roadmap and implementation to reach enterprise grade standards in all aspects",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "Create a full-stack Hospital Management System (HMS) for a multi-specialty hospital (100+ beds), covering both frontend and backend, including mobile and web access.\n\nKey Functional Modules:\n    1.    Patient Registration (New/Returning)\n    2.    Outpatient Department (OPD) Management\n    3.    Inpatient Department (IPD) Management — Admission, Bed Management, Daily Progress, Nursing Notes, Discharge Summary\n    4.    Operation Theatre (OT) Scheduling and Records\n    5.    Emergency Department (ER) Module — Triage, Critical Alert\n    6.    Pharmacy Management — Stock, Billing, Expiry, Generic/Branded Drugs\n    7.    Laboratory Management (LIS) — Test Booking, Barcode Tracking, Report Uploading\n    8.    Radiology Management — X-ray, CT, MRI Requests and Report Tracking\n    9.    Blood Bank Management — Donor Database, Inventory Tracking, Crossmatch\n    10.    Insurance and TPA Management — Pre-Auth, Billing, Claim Tracking\n    11.    Billing & Invoicing — Department-wise, Package Billing, Emergency Billing\n    12.    Role-Based Access Control (RBAC) — Doctor, Nurse, Receptionist, Admin, Lab Technician, Pharmacist\n    13.    HR and Payroll Management — Staff Attendance (biometric integration), Leave, Payroll\n    14.    Housekeeping and Maintenance Management\n    15.    Biomedical Equipment Management\n    16.    Dietary Management — Diet Orders, Meal Planning\n    17.    Ambulance Management\n    18.    Patient Portal (Web + Mobile App) — Appointments, Reports, Bills, Payments\n    19.    Doctor Portal (Web + Mobile App) — Appointments, E-prescriptions, Progress Notes\n    20.    E-Prescription and Drug Interaction Checker\n    21.    Notification System — SMS/Email/WhatsApp Alerts\n    22.    Feedback & Complaint Management\n    23.    Marketing CRM Module — Campaigns, Reminders\n    24.    Analytics and Reporting — Revenue, OPD/IPD Statistics, Occupancy Rate\n    25.    Medical Records Department (MRD) — ICD Coding, Document Archival\n    26.    NABH / JCI Accreditation Compliance Checklists\n    27.    Advanced Backup and Disaster Recovery\n    28.    Cybersecurity Measures — End-to-End Encryption, 2FA, Audit Logs"
+            },
+            "2": {
+              "id": 2,
+              "type": "text",
+              "content": "Hospital Management Software – Advanced Feature Requirements\n\nTo enhance the functionality, control, and profitability analysis of the HMS (Hospital Management System), the following advanced features are essential for implementation:\n\n1. Superadmin Control Panel\n    •    A centrally controlled Superadmin account should oversee all client hospitals or clinics using the software.\n    •    The Superadmin can:\n    •    View a comprehensive list of all active users/accounts.\n    •    Enable or disable specific modules (e.g., OPD, IPD, Diagnostics, Pharmacy, Accounting) per user/hospital based on their subscription tier.\n    •    Create and assign accounts manually, as account creation should be centrally controlled (not self-registered).\n    •    Define the maximum number of users allowed per account based on the plan.\n    •    Allow users to reset passwords locally, while still maintaining centralized control over new account creation and module access.\n\n2. Access-Controlled Features\n    •    Specific actions such as applying discounts on invoices should be restricted based on user roles (e.g., only Admin or Manager-level users can apply discounts).\n    •    All access privileges should be customizable under Role-Based Access Control (RBAC).\n\n3. Quick Price Estimator Tool\n    •    A “Quick Price Estimation” button should be available on the dashboard to generate an estimated cost for any combination of services (OPD consultation, tests, surgeries, room charges, etc.).\n    •    This is especially useful for front-desk staff when counseling patients on expected costs.\n\n4. Advanced Accounting System\n    •    Tally Integration: The system must integrate seamlessly with Tally Prime for accounting, GST compliance, and report generation.\n    •    Export to Excel: All financial records and reports must be exportable in .xls format for independent review or third-party processing.\n    •    Referral Income Tracking:\n    •    Income from patient referrals (e.g., from doctors, agents, or clinics) should be tracked and reported separately.\n    •    Outsourced Service Accounting:\n    •    Services outsourced to third parties (like MRI scans, pathology tests, etc.) should be accounted for independently from in-house services, for clarity in profit-sharing and vendor payments.\n    •    Department-Wise Accounting:\n    •    Revenue and expenses should be segregated by department (e.g., OPD, IPD, Diagnostics, Pharmacy, Dental, Cataract) for detailed performance analysis.\n    •    Overall Financial Reporting:\n    •    A consolidated profit/loss report should be available to understand overall business health.\n    •    Break-Even & Asset-Inclusive Accounting:\n    •    A specialized accounting module that includes:\n    •    Asset tracking (e.g., equipment, machinery)\n    •    Depreciation calculation\n    •    Return on Investment (ROI)\n    •    Break-even analysis by factoring in capital expenses and fixed costs"
+            }
+          }
+        },
+        {
+          "display": "/init ",
+          "pastedContents": {}
+        }
+      ],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 3,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "models.py",
+        "serializers.py",
+        "views.py",
+        "admin.py",
+        "utils.py"
+      ],
+      "exampleFilesGeneratedAt": 1758055716997,
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 0,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 40055476,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastSessionId": "7184800b-2288-46fb-abf3-399ba58459c8"
+    },
+    "/home/azureuser": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/permissions ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/hooks ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/context ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/bashes ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/model ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/agents ",
+          "pastedContents": {}
+        }
+      ],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "playwright-server": {
+          "type": "stdio",
+          "command": "node",
+          "args": [
+            "/home/azureuser/mcp-servers/mcp-playwright/dist/index.js"
+          ],
+          "env": {}
+        },
+        "filesystem-server": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-filesystem",
+            "/home/azureuser"
+          ],
+          "env": {
+            "NODE_PATH": "/home/azureuser/mcp-servers/mcp-servers-official/src/filesystem"
+          }
+        },
+        "git-server": {
+          "type": "stdio",
+          "command": "/home/azureuser/mcp-servers/git-mcp-server/venv/bin/python",
+          "args": [
+            "-m",
+            "mcp_server_git"
+          ],
+          "env": {
+            "PYTHONPATH": "/home/azureuser/mcp-servers/git-mcp-server/git/src"
+          }
+        },
+        "byterover-mcp": {
+          "type": "stdio",
+          "command": "python",
+          "args": [
+            "/home/azureuser/mcp-analysis/byterover-mcp/mcp_server.py"
+          ],
+          "env": {
+            "PATH": "/home/azureuser/mcp-analysis/byterover-mcp/venv/bin:$PATH",
+            "PYTHONPATH": "/home/azureuser/mcp-analysis/byterover-mcp"
+          }
+        },
+        "browser-mcp": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-browsermcp"
+          ],
+          "env": {
+            "NODE_PATH": "/home/azureuser/mcp-analysis/browsermcp-mcp"
+          }
+        },
+        "fetch": {
+          "type": "stdio",
+          "command": "python",
+          "args": [
+            "-m",
+            "mcp_server_fetch"
+          ],
+          "env": {
+            "PATH": "/home/azureuser/mcp-servers/servers/src/fetch/venv/bin:$PATH",
+            "PYTHONPATH": "/home/azureuser/mcp-servers/servers/src/fetch/src"
+          }
+        },
+        "time": {
+          "type": "stdio",
+          "command": "python",
+          "args": [
+            "-m",
+            "mcp_server_time"
+          ],
+          "env": {
+            "PATH": "/home/azureuser/mcp-servers/servers/src/time/venv/bin:$PATH",
+            "PYTHONPATH": "/home/azureuser/mcp-servers/servers/src/time/src"
+          }
+        },
+        "everything": {
+          "type": "stdio",
+          "command": "/home/azureuser/node_modules/.bin/mcp-server-everything",
+          "args": [],
+          "env": {}
+        },
+        "memory": {
+          "type": "stdio",
+          "command": "/home/azureuser/node_modules/.bin/mcp-server-memory",
+          "args": [],
+          "env": {}
+        },
+        "sequentialthinking": {
+          "type": "stdio",
+          "command": "/home/azureuser/node_modules/.bin/mcp-server-sequential-thinking",
+          "args": [],
+          "env": {}
+        },
+        "claude-flow": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "claude-flow@alpha",
+            "mcp",
+            "start"
+          ],
+          "env": {}
+        },
+        "ruv-swarm": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "ruv-swarm",
+            "mcp",
+            "start"
+          ],
+          "env": {}
+        },
+        "flow-nexus": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "flow-nexus@latest",
+            "mcp",
+            "start"
+          ],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastTotalWebSearchRequests": 0,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 2178328,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastSessionId": "445889f8-dbd3-490c-9151-d367db946184"
+    },
+    "/home/azureuser/claude-dev-tools/playwright-mcp": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "playwright-microsoft": {
+          "type": "stdio",
+          "command": "cd /home/azureuser/claude-dev-tools/playwright-mcp && npx playwright-mcp",
+          "args": [],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "/home/azureuser/mcp-analysis/mcp-sequential-thinking": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "/home/azureuser/mcp-servers/mcp-servers-official": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "/home/azureuser/claude-setup": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "claude-flow": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "claude-flow@alpha",
+            "mcp",
+            "start"
+          ],
+          "env": {}
+        },
+        "ruv-swarm": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "ruv-swarm",
+            "mcp",
+            "start"
+          ],
+          "env": {}
+        },
+        "flow-nexus": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "flow-nexus@latest",
+            "mcp",
+            "start"
+          ],
+          "env": {}
+        },
+        "filesystem-server": {
+          "type": "stdio",
+          "command": "npx mcp-server-filesystem /home/azureuser",
+          "args": [],
+          "env": {}
+        },
+        "browser-mcp": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-browsermcp"
+          ],
+          "env": {}
+        },
+        "fetch": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-fetch"
+          ],
+          "env": {}
+        },
+        "time": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-time"
+          ],
+          "env": {}
+        },
+        "everything": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-everything"
+          ],
+          "env": {}
+        },
+        "memory": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-memory"
+          ],
+          "env": {}
+        },
+        "sequentialthinking": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "mcp-server-sequential-thinking"
+          ],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "/home/azureuser/claude-dev-tools": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "git-server": {
+          "type": "stdio",
+          "command": "/home/azureuser/mcp-servers/git-mcp-server/venv/bin/python -m mcp_server_git",
+          "args": [],
+          "env": {}
+        },
+        "playwright-server": {
+          "type": "stdio",
+          "command": "node /home/azureuser/mcp-servers/mcp-playwright/dist/index.js",
+          "args": [],
+          "env": {}
+        },
+        "byterover-mcp": {
+          "type": "stdio",
+          "command": "python /home/azureuser/mcp-analysis/byterover-mcp/mcp_server.py",
+          "args": [],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "/home/azureuser/claude-setup-improved": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "claude-flow": {
+          "type": "stdio",
+          "command": "npx claude-flow mcp start",
+          "args": [],
+          "env": {}
+        },
+        "ruv-swarm": {
+          "type": "stdio",
+          "command": "npx ruv-swarm mcp start",
+          "args": [],
+          "env": {}
+        },
+        "flow-nexus": {
+          "type": "stdio",
+          "command": "npx flow-nexus mcp start",
+          "args": [],
+          "env": {}
+        },
+        "filesystem": {
+          "type": "stdio",
+          "command": "npx mcp-server-filesystem",
+          "args": [],
+          "env": {}
+        },
+        "everything": {
+          "type": "stdio",
+          "command": "npx mcp-server-everything",
+          "args": [],
+          "env": {}
+        },
+        "memory": {
+          "type": "stdio",
+          "command": "npx mcp-server-memory",
+          "args": [],
+          "env": {}
+        },
+        "git-server": {
+          "type": "stdio",
+          "command": "/home/azureuser/mcp-servers/git-mcp-server/venv/bin/python -m mcp_server_git",
+          "args": [],
+          "env": {}
+        },
+        "playwright-server": {
+          "type": "stdio",
+          "command": "node /home/azureuser/mcp-servers/mcp-playwright/dist/index.js",
+          "args": [],
+          "env": {}
+        },
+        "byterover-mcp": {
+          "type": "stdio",
+          "command": "python /home/azureuser/mcp-analysis/byterover-mcp/mcp_server.py",
+          "args": [],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    }
+  },
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.115",
+  "hasOpusPlanDefault": false,
+  "subscriptionNoticeCount": 0,
+  "hasAvailableSubscription": false,
+  "hasAcknowledgedCostThreshold": true,
+  "isQualifiedForDataSharing": false,
+  "cachedChangelog": "# Changelog\n\n## 1.0.115\n\n- Improve thinking mode display with enhanced visual effects\n- Type /t to temporarily disable thinking mode in your prompt\n- Improve path validation for glob and grep tools\n- Show condensed output for post-tool hooks to reduce visual clutter\n- Fix visual feedback when loading state completes\n- Improve UI consistency for permission request dialogs\n\n## 1.0.113\n\n- Deprecated piped input in interactive mode\n- Move Ctrl+R keybinding for toggling transcript to Ctrl+O\n\n## 1.0.112\n\n- Transcript mode (Ctrl+R): Added the model used to generate each assistant message\n- Addressed issue where some Claude Max users were incorrectly recognized as Claude Pro users\n- Hooks: Added systemMessage support for SessionEnd hooks\n- Added `spinnerTipsEnabled` setting to disable spinner tips\n- IDE: Various improvements and bug fixes\n\n## 1.0.111\n\n- /model now validates provided model names\n- Fixed Bash tool crashes caused by malformed shell syntax parsing\n\n## 1.0.110\n\n- /terminal-setup command now supports WezTerm\n- MCP: OAuth tokens now proactively refresh before expiration\n- Fixed reliability issues with background Bash processes\n\n## 1.0.109\n\n- SDK: Added partial message streaming support via `--include-partial-messages` CLI flag\n\n## 1.0.106\n\n- Windows: Fixed path permission matching to consistently use POSIX format (e.g., `Read(//c/Users/...)`)\n\n## 1.0.97\n\n- Settings: /doctor now validates permission rule syntax and suggests corrections\n\n## 1.0.94\n\n- Vertex: add support for global endpoints for supported models\n- /memory command now allows direct editing of all imported memory files\n- SDK: Add custom tools as callbacks\n- Added /todos command to list current todo items\n\n## 1.0.93\n\n- Windows: Add alt + v shortcut for pasting images from clipboard\n- Support NO_PROXY environment variable to bypass proxy for specified hostnames and IPs\n\n## 1.0.90\n\n- Settings file changes take effect immediately - no restart required\n\n## 1.0.88\n\n- Fixed issue causing \"OAuth authentication is currently not supported\"\n- Status line input now includes `exceeds_200k_tokens`\n- Fixed incorrect usage tracking in /cost.\n- Introduced `ANTHROPIC_DEFAULT_SONNET_MODEL` and `ANTHROPIC_DEFAULT_OPUS_MODEL` for controlling model aliases opusplan, opus, and sonnet.\n- Bedrock: Updated default Sonnet model to Sonnet 4\n\n## 1.0.86\n\n- Added /context to help users self-serve debug context issues\n- SDK: Added UUID support for all SDK messages\n- SDK: Added `--replay-user-messages` to replay user messages back to stdout\n\n## 1.0.85\n\n- Status line input now includes session cost info\n- Hooks: Introduced SessionEnd hook\n\n## 1.0.84\n\n- Fix tool_use/tool_result id mismatch error when network is unstable\n- Fix Claude sometimes ignoring real-time steering when wrapping up a task\n- @-mention: Add ~/.claude/\\* files to suggestions for easier agent, output style, and slash command editing\n- Use built-in ripgrep by default; to opt out of this behavior, set USE_BUILTIN_RIPGREP=0\n\n## 1.0.83\n\n- @-mention: Support files with spaces in path\n- New shimmering spinner\n\n## 1.0.82\n\n- SDK: Add request cancellation support\n- SDK: New additionalDirectories option to search custom paths, improved slash command processing\n- Settings: Validation prevents invalid fields in .claude/settings.json files\n- MCP: Improve tool name consistency\n- Bash: Fix crash when Claude tries to automatically read large files\n\n## 1.0.81\n\n- Released output styles, including new built-in educational output styles \"Explanatory\" and \"Learning\". Docs: https://docs.anthropic.com/en/docs/claude-code/output-styles\n- Agents: Fix custom agent loading when agent files are unparsable\n\n## 1.0.80\n\n- UI improvements: Fix text contrast for custom subagent colors and spinner rendering issues\n\n## 1.0.77\n\n- Bash tool: Fix heredoc and multiline string escaping, improve stderr redirection handling\n- SDK: Add session support and permission denial tracking\n- Fix token limit errors in conversation summarization\n- Opus Plan Mode: New setting in `/model` to run Opus only in plan mode, Sonnet otherwise\n\n## 1.0.73\n\n- MCP: Support multiple config files with `--mcp-config file1.json file2.json`\n- MCP: Press Esc to cancel OAuth authentication flows\n- Bash: Improved command validation and reduced false security warnings\n- UI: Enhanced spinner animations and status line visual hierarchy\n- Linux: Added support for Alpine and musl-based distributions (requires separate ripgrep installation)\n\n## 1.0.72\n\n- Ask permissions: have Claude Code always ask for confirmation to use specific tools with /permissions\n\n## 1.0.71\n\n- Background commands: (Ctrl-b) to run any Bash command in the background so Claude can keep working (great for dev servers, tailing logs, etc.)\n- Customizable status line: add your terminal prompt to Claude Code with /statusline\n\n## 1.0.70\n\n- Performance: Optimized message rendering for better performance with large contexts\n- Windows: Fixed native file search, ripgrep, and subagent functionality\n- Added support for @-mentions in slash command arguments\n\n## 1.0.69\n\n- Upgraded Opus to version 4.1\n\n## 1.0.68\n\n- Fix incorrect model names being used for certain commands like `/pr-comments`\n- Windows: improve permissions checks for allow / deny tools and project trust. This may create a new project entry in `.claude.json` - manually merge the history field if desired.\n- Windows: improve sub-process spawning to eliminate \"No such file or directory\" when running commands like pnpm\n- Enhanced /doctor command with CLAUDE.md and MCP tool context for self-serve debugging\n- SDK: Added canUseTool callback support for tool confirmation\n- Added `disableAllHooks` setting\n- Improved file suggestions performance in large repos\n\n## 1.0.65\n\n- IDE: Fixed connection stability issues and error handling for diagnostics\n- Windows: Fixed shell environment setup for users without .bashrc files\n\n## 1.0.64\n\n- Agents: Added model customization support - you can now specify which model an agent should use\n- Agents: Fixed unintended access to the recursive agent tool\n- Hooks: Added systemMessage field to hook JSON output for displaying warnings and context\n- SDK: Fixed user input tracking across multi-turn conversations\n- Added hidden files to file search and @-mention suggestions\n\n## 1.0.63\n\n- Windows: Fixed file search, @agent mentions, and custom slash commands functionality\n\n## 1.0.62\n\n- Added @-mention support with typeahead for custom agents. @<your-custom-agent> to invoke it\n- Hooks: Added SessionStart hook for new session initialization\n- /add-dir command now supports typeahead for directory paths\n- Improved network connectivity check reliability\n\n## 1.0.61\n\n- Transcript mode (Ctrl+R): Changed Esc to exit transcript mode rather than interrupt\n- Settings: Added `--settings` flag to load settings from a JSON file\n- Settings: Fixed resolution of settings files paths that are symlinks\n- OTEL: Fixed reporting of wrong organization after authentication changes\n- Slash commands: Fixed permissions checking for allowed-tools with Bash\n- IDE: Added support for pasting images in VSCode MacOS using ⌘+V\n- IDE: Added `CLAUDE_CODE_AUTO_CONNECT_IDE=false` for disabling IDE auto-connection\n- Added `CLAUDE_CODE_SHELL_PREFIX` for wrapping Claude and user-provided shell commands run by Claude Code\n\n## 1.0.60\n\n- You can now create custom subagents for specialized tasks! Run /agents to get started\n\n## 1.0.59\n\n- SDK: Added tool confirmation support with canUseTool callback\n- SDK: Allow specifying env for spawned process\n- Hooks: Exposed PermissionDecision to hooks (including \"ask\")\n- Hooks: UserPromptSubmit now supports additionalContext in advanced JSON output\n- Fixed issue where some Max users that specified Opus would still see fallback to Sonnet\n\n## 1.0.58\n\n- Added support for reading PDFs\n- MCP: Improved server health status display in 'claude mcp list'\n- Hooks: Added CLAUDE_PROJECT_DIR env var for hook commands\n\n## 1.0.57\n\n- Added support for specifying a model in slash commands\n- Improved permission messages to help Claude understand allowed tools\n- Fix: Remove trailing newlines from bash output in terminal wrapping\n\n## 1.0.56\n\n- Windows: Enabled shift+tab for mode switching on versions of Node.js that support terminal VT mode\n- Fixes for WSL IDE detection\n- Fix an issue causing awsRefreshHelper changes to .aws directory not to be picked up\n\n## 1.0.55\n\n- Clarified knowledge cutoff for Opus 4 and Sonnet 4 models\n- Windows: fixed Ctrl+Z crash\n- SDK: Added ability to capture error logging\n- Add --system-prompt-file option to override system prompt in print mode\n\n## 1.0.54\n\n- Hooks: Added UserPromptSubmit hook and the current working directory to hook inputs\n- Custom slash commands: Added argument-hint to frontmatter\n- Windows: OAuth uses port 45454 and properly constructs browser URL\n- Windows: mode switching now uses alt + m, and plan mode renders properly\n- Shell: Switch to in-memory shell snapshot to fix file-related errors\n\n## 1.0.53\n\n- Updated @-mention file truncation from 100 lines to 2000 lines\n- Add helper script settings for AWS token refresh: awsAuthRefresh (for foreground operations like aws sso login) and awsCredentialExport (for background operation with STS-like response).\n\n## 1.0.52\n\n- Added support for MCP server instructions\n\n## 1.0.51\n\n- Added support for native Windows (requires Git for Windows)\n- Added support for Bedrock API keys through environment variable AWS_BEARER_TOKEN_BEDROCK\n- Settings: /doctor can now help you identify and fix invalid setting files\n- `--append-system-prompt` can now be used in interactive mode, not just --print/-p.\n- Increased auto-compact warning threshold from 60% to 80%\n- Fixed an issue with handling user directories with spaces for shell snapshots\n- OTEL resource now includes os.type, os.version, host.arch, and wsl.version (if running on Windows Subsystem for Linux)\n- Custom slash commands: Fixed user-level commands in subdirectories\n- Plan mode: Fixed issue where rejected plan from sub-task would get discarded\n\n## 1.0.48\n\n- Fixed a bug in v1.0.45 where the app would sometimes freeze on launch\n- Added progress messages to Bash tool based on the last 5 lines of command output\n- Added expanding variables support for MCP server configuration\n- Moved shell snapshots from /tmp to ~/.claude for more reliable Bash tool calls\n- Improved IDE extension path handling when Claude Code runs in WSL\n- Hooks: Added a PreCompact hook\n- Vim mode: Added c, f/F, t/T\n\n## 1.0.45\n\n- Redesigned Search (Grep) tool with new tool input parameters and features\n- Disabled IDE diffs for notebook files, fixing \"Timeout waiting after 1000ms\" error\n- Fixed config file corruption issue by enforcing atomic writes\n- Updated prompt input undo to Ctrl+\\_ to avoid breaking existing Ctrl+U behavior, matching zsh's undo shortcut\n- Stop Hooks: Fixed transcript path after /clear and fixed triggering when loop ends with tool call\n- Custom slash commands: Restored namespacing in command names based on subdirectories. For example, .claude/commands/frontend/component.md is now /frontend:component, not /component.\n\n## 1.0.44\n\n- New /export command lets you quickly export a conversation for sharing\n- MCP: resource_link tool results are now supported\n- MCP: tool annotations and tool titles now display in /mcp view\n- Changed Ctrl+Z to suspend Claude Code. Resume by running `fg`. Prompt input undo is now Ctrl+U.\n\n## 1.0.43\n\n- Fixed a bug where the theme selector was saving excessively\n- Hooks: Added EPIPE system error handling\n\n## 1.0.42\n\n- Added tilde (`~`) expansion support to `/add-dir` command\n\n## 1.0.41\n\n- Hooks: Split Stop hook triggering into Stop and SubagentStop\n- Hooks: Enabled optional timeout configuration for each command\n- Hooks: Added \"hook_event_name\" to hook input\n- Fixed a bug where MCP tools would display twice in tool list\n- New tool parameters JSON for Bash tool in `tool_decision` event\n\n## 1.0.40\n\n- Fixed a bug causing API connection errors with UNABLE_TO_GET_ISSUER_CERT_LOCALLY if `NODE_EXTRA_CA_CERTS` was set\n\n## 1.0.39\n\n- New Active Time metric in OpenTelemetry logging\n\n## 1.0.38\n\n- Released hooks. Special thanks to community input in https://github.com/anthropics/claude-code/issues/712. Docs: https://docs.anthropic.com/en/docs/claude-code/hooks\n\n## 1.0.37\n\n- Remove ability to set `Proxy-Authorization` header via ANTHROPIC_AUTH_TOKEN or apiKeyHelper\n\n## 1.0.36\n\n- Web search now takes today's date into context\n- Fixed a bug where stdio MCP servers were not terminating properly on exit\n\n## 1.0.35\n\n- Added support for MCP OAuth Authorization Server discovery\n\n## 1.0.34\n\n- Fixed a memory leak causing a MaxListenersExceededWarning message to appear\n\n## 1.0.33\n\n- Improved logging functionality with session ID support\n- Added prompt input undo functionality (Ctrl+Z and vim 'u' command)\n- Improvements to plan mode\n\n## 1.0.32\n\n- Updated loopback config for litellm\n- Added forceLoginMethod setting to bypass login selection screen\n\n## 1.0.31\n\n- Fixed a bug where ~/.claude.json would get reset when file contained invalid JSON\n\n## 1.0.30\n\n- Custom slash commands: Run bash output, @-mention files, enable thinking with thinking keywords\n- Improved file path autocomplete with filename matching\n- Added timestamps in Ctrl-r mode and fixed Ctrl-c handling\n- Enhanced jq regex support for complex filters with pipes and select\n\n## 1.0.29\n\n- Improved CJK character support in cursor navigation and rendering\n\n## 1.0.28\n\n- Slash commands: Fix selector display during history navigation\n- Resizes images before upload to prevent API size limit errors\n- Added XDG_CONFIG_HOME support to configuration directory\n- Performance optimizations for memory usage\n- New attributes (terminal.type, language) in OpenTelemetry logging\n\n## 1.0.27\n\n- Streamable HTTP MCP servers are now supported\n- Remote MCP servers (SSE and HTTP) now support OAuth\n- MCP resources can now be @-mentioned\n- /resume slash command to switch conversations within Claude Code\n\n## 1.0.25\n\n- Slash commands: moved \"project\" and \"user\" prefixes to descriptions\n- Slash commands: improved reliability for command discovery\n- Improved support for Ghostty\n- Improved web search reliability\n\n## 1.0.24\n\n- Improved /mcp output\n- Fixed a bug where settings arrays got overwritten instead of merged\n\n## 1.0.23\n\n- Released TypeScript SDK: import @anthropic-ai/claude-code to get started\n- Released Python SDK: pip install claude-code-sdk to get started\n\n## 1.0.22\n\n- SDK: Renamed `total_cost` to `total_cost_usd`\n\n## 1.0.21\n\n- Improved editing of files with tab-based indentation\n- Fix for tool_use without matching tool_result errors\n- Fixed a bug where stdio MCP server processes would linger after quitting Claude Code\n\n## 1.0.18\n\n- Added --add-dir CLI argument for specifying additional working directories\n- Added streaming input support without require -p flag\n- Improved startup performance and session storage performance\n- Added CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR environment variable to freeze working directory for bash commands\n- Added detailed MCP server tools display (/mcp)\n- MCP authentication and permission improvements\n- Added auto-reconnection for MCP SSE connections on disconnect\n- Fixed issue where pasted content was lost when dialogs appeared\n\n## 1.0.17\n\n- We now emit messages from sub-tasks in -p mode (look for the parent_tool_use_id property)\n- Fixed crashes when the VS Code diff tool is invoked multiple times quickly\n- MCP server list UI improvements\n- Update Claude Code process title to display \"claude\" instead of \"node\"\n\n## 1.0.11\n\n- Claude Code can now also be used with a Claude Pro subscription\n- Added /upgrade for smoother switching to Claude Max plans\n- Improved UI for authentication from API keys and Bedrock/Vertex/external auth tokens\n- Improved shell configuration error handling\n- Improved todo list handling during compaction\n\n## 1.0.10\n\n- Added markdown table support\n- Improved streaming performance\n\n## 1.0.8\n\n- Fixed Vertex AI region fallback when using CLOUD_ML_REGION\n- Increased default otel interval from 1s -> 5s\n- Fixed edge cases where MCP_TIMEOUT and MCP_TOOL_TIMEOUT weren't being respected\n- Fixed a regression where search tools unnecessarily asked for permissions\n- Added support for triggering thinking non-English languages\n- Improved compacting UI\n\n## 1.0.7\n\n- Renamed /allowed-tools -> /permissions\n- Migrated allowedTools and ignorePatterns from .claude.json -> settings.json\n- Deprecated claude config commands in favor of editing settings.json\n- Fixed a bug where --dangerously-skip-permissions sometimes didn't work in --print mode\n- Improved error handling for /install-github-app\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.6\n\n- Improved edit reliability for tab-indented files\n- Respect CLAUDE_CONFIG_DIR everywhere\n- Reduced unnecessary tool permission prompts\n- Added support for symlinks in @file typeahead\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.4\n\n- Fixed a bug where MCP tool errors weren't being parsed correctly\n\n## 1.0.1\n\n- Added `DISABLE_INTERLEAVED_THINKING` to give users the option to opt out of interleaved thinking.\n- Improved model references to show provider-specific names (Sonnet 3.7 for Bedrock, Sonnet 4 for Console)\n- Updated documentation links and OAuth process descriptions\n\n## 1.0.0\n\n- Claude Code is now generally available\n- Introducing Sonnet 4 and Opus 4 models\n\n## 0.2.125\n\n- Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify `/` instead of `%2F`)\n- Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests\n\n## 0.2.117\n\n- Breaking change: --print JSON output now returns nested message objects, for forwards-compatibility as we introduce new metadata fields\n- Introduced settings.cleanupPeriodDays\n- Introduced CLAUDE_CODE_API_KEY_HELPER_TTL_MS env var\n- Introduced --debug mode\n\n## 0.2.108\n\n- You can now send messages to Claude while it works to steer Claude in real-time\n- Introduced BASH_DEFAULT_TIMEOUT_MS and BASH_MAX_TIMEOUT_MS env vars\n- Fixed a bug where thinking was not working in -p mode\n- Fixed a regression in /cost reporting\n- Deprecated MCP wizard interface in favor of other MCP commands\n- Lots of other bugfixes and improvements\n\n## 0.2.107\n\n- CLAUDE.md files can now import other files. Add @path/to/file.md to ./CLAUDE.md to load additional files on launch\n\n## 0.2.106\n\n- MCP SSE server configs can now specify custom headers\n- Fixed a bug where MCP permission prompt didn't always show correctly\n\n## 0.2.105\n\n- Claude can now search the web\n- Moved system & account status to /status\n- Added word movement keybindings for Vim\n- Improved latency for startup, todo tool, and file edits\n\n## 0.2.102\n\n- Improved thinking triggering reliability\n- Improved @mention reliability for images and folders\n- You can now paste multiple large chunks into one prompt\n\n## 0.2.100\n\n- Fixed a crash caused by a stack overflow error\n- Made db storage optional; missing db support disables --continue and --resume\n\n## 0.2.98\n\n- Fixed an issue where auto-compact was running twice\n\n## 0.2.96\n\n- Claude Code can now also be used with a Claude Max subscription (https://claude.ai/upgrade)\n\n## 0.2.93\n\n- Resume conversations from where you left off from with \"claude --continue\" and \"claude --resume\"\n- Claude now has access to a Todo list that helps it stay on track and be more organized\n\n## 0.2.82\n\n- Added support for --disallowedTools\n- Renamed tools for consistency: LSTool -> LS, View -> Read, etc.\n\n## 0.2.75\n\n- Hit Enter to queue up additional messages while Claude is working\n- Drag in or copy/paste image files directly into the prompt\n- @-mention files to directly add them to context\n- Run one-off MCP servers with `claude --mcp-config <path-to-file>`\n- Improved performance for filename auto-complete\n\n## 0.2.74\n\n- Added support for refreshing dynamically generated API keys (via apiKeyHelper), with a 5 minute TTL\n- Task tool can now perform writes and run bash commands\n\n## 0.2.72\n\n- Updated spinner to indicate tokens loaded and tool usage\n\n## 0.2.70\n\n- Network commands like curl are now available for Claude to use\n- Claude can now run multiple web queries in parallel\n- Pressing ESC once immediately interrupts Claude in Auto-accept mode\n\n## 0.2.69\n\n- Fixed UI glitches with improved Select component behavior\n- Enhanced terminal output display with better text truncation logic\n\n## 0.2.67\n\n- Shared project permission rules can be saved in .claude/settings.json\n\n## 0.2.66\n\n- Print mode (-p) now supports streaming output via --output-format=stream-json\n- Fixed issue where pasting could trigger memory or bash mode unexpectedly\n\n## 0.2.63\n\n- Fixed an issue where MCP tools were loaded twice, which caused tool call errors\n\n## 0.2.61\n\n- Navigate menus with vim-style keys (j/k) or bash/emacs shortcuts (Ctrl+n/p) for faster interaction\n- Enhanced image detection for more reliable clipboard paste functionality\n- Fixed an issue where ESC key could crash the conversation history selector\n\n## 0.2.59\n\n- Copy+paste images directly into your prompt\n- Improved progress indicators for bash and fetch tools\n- Bugfixes for non-interactive mode (-p)\n\n## 0.2.54\n\n- Quickly add to Memory by starting your message with '#'\n- Press ctrl+r to see full output for long tool results\n- Added support for MCP SSE transport\n\n## 0.2.53\n\n- New web fetch tool lets Claude view URLs that you paste in\n- Fixed a bug with JPEG detection\n\n## 0.2.50\n\n- New MCP \"project\" scope now allows you to add MCP servers to .mcp.json files and commit them to your repository\n\n## 0.2.49\n\n- Previous MCP server scopes have been renamed: previous \"project\" scope is now \"local\" and \"global\" scope is now \"user\"\n\n## 0.2.47\n\n- Press Tab to auto-complete file and folder names\n- Press Shift + Tab to toggle auto-accept for file edits\n- Automatic conversation compaction for infinite conversation length (toggle with /config)\n\n## 0.2.44\n\n- Ask Claude to make a plan with thinking mode: just say 'think' or 'think harder' or even 'ultrathink'\n\n## 0.2.41\n\n- MCP server startup timeout can now be configured via MCP_TIMEOUT environment variable\n- MCP server startup no longer blocks the app from starting up\n\n## 0.2.37\n\n- New /release-notes command lets you view release notes at any time\n- `claude config add/remove` commands now accept multiple values separated by commas or spaces\n\n## 0.2.36\n\n- Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`\n- Add MCP servers as JSON strings with `claude mcp add-json <n> <json>`\n\n## 0.2.34\n\n- Vim bindings for text input - enable with /vim or /config\n\n## 0.2.32\n\n- Interactive MCP setup wizard: Run \"claude mcp add\" to add MCP servers with a step-by-step interface\n- Fix for some PersistentShell issues\n\n## 0.2.31\n\n- Custom slash commands: Markdown files in .claude/commands/ directories now appear as custom slash commands to insert prompts into your conversation\n- MCP debug mode: Run with --mcp-debug flag to get more information about MCP server errors\n\n## 0.2.30\n\n- Added ANSI color theme for better terminal compatibility\n- Fixed issue where slash command arguments weren't being sent properly\n- (Mac-only) API keys are now stored in macOS Keychain\n\n## 0.2.26\n\n- New /approved-tools command for managing tool permissions\n- Word-level diff display for improved code readability\n- Fuzzy matching for slash commands\n\n## 0.2.21\n\n- Fuzzy matching for /commands\n",
+  "changelogLastFetched": 1758159357315,
+  "lastReleaseNotesSeen": "1.0.115",
+  "mcpServers": {
+    "byterover-mcp": {
+      "type": "http",
+      "url": "https://mcp.byterover.dev/v2/mcp"
+    }
+  }
+}
