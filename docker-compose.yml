@@ -1,0 +1,93 @@
+version: '3.8'
+
+services:
+  claude-ecosystem:
+    build:
+      context: .
+      target: production
+    container_name: claude-code-ecosystem
+    volumes:
+      - .:/workspace
+      - /var/run/docker.sock:/var/run/docker.sock
+      - claude-cache:/home/claude/.cache
+      - claude-config:/home/claude/.claude
+    environment:
+      - NODE_ENV=production
+      - PYTHONPATH=/workspace
+      - CLAUDE_WORKSPACE=/workspace
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    ports:
+      - "3000-3100:3000-3100"
+      - "8000-8100:8000-8100"
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    networks:
+      - claude-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "--version"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Development version with additional tools
+  claude-dev:
+    build:
+      context: .
+      target: development
+    container_name: claude-code-dev
+    volumes:
+      - .:/workspace
+      - /var/run/docker.sock:/var/run/docker.sock
+      - claude-dev-cache:/home/claude/.cache
+      - claude-dev-config:/home/claude/.claude
+    environment:
+      - NODE_ENV=development
+      - PYTHONPATH=/workspace
+      - CLAUDE_WORKSPACE=/workspace
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    ports:
+      - "3001-3101:3000-3100"
+      - "8001-8101:8000-8100"
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    networks:
+      - claude-network
+    profiles:
+      - dev
+    restart: unless-stopped
+
+  # Minimal version for testing
+  claude-minimal:
+    build:
+      context: .
+      dockerfile: Dockerfile.minimal
+    container_name: claude-code-minimal
+    volumes:
+      - .:/workspace
+    environment:
+      - CLAUDE_WORKSPACE=/workspace
+    ports:
+      - "3002-3102:3000-3100"
+      - "8002-8102:8000-8100"
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    networks:
+      - claude-network
+    profiles:
+      - minimal
+    restart: unless-stopped
+
+volumes:
+  claude-cache:
+  claude-config:
+  claude-dev-cache:
+  claude-dev-config:
+
+networks:
+  claude-network:
+    driver: bridge
